@@ -9,7 +9,7 @@ from telegram.ext import Updater, MessageHandler, Filters
 class ContextAwareMarkovBot():
     def __init__(self, 
                  ngram_len=5, 
-                 user='Shikib_Mehri'
+                 user='Shikib_Mehri',
                  size_reweight=True,
                  punctuation_dataset=None,
                  style_dataset=None):
